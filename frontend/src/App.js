@@ -1,6 +1,6 @@
 import './App.css';
 import Fakedata from './components/Fakedata';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

@@ -7,13 +7,15 @@ import { faker as fakerPl  } from '@faker-js/faker/locale/pl'
 
 const Fakedata = () => {
   const myEnglishName = fakerEn.name.firstName();
-  const myPolishName = fakerHe.name.firstName();
-  const myHeName = fakerPl.name.firstName();
+  const myPolishName = fakerPl.address.city()
+  const myHeName = fakerHe.name.firstName();
   
   return (
     <>
+    
     <h1>Fake Data</h1>
-    <div>{myPolishName}</div>
+    
+    {console.log(myPolishName)}
     </>
   )
 };
